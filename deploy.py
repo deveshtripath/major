@@ -1,7 +1,7 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
 
-st.title('Uber pickups in NYC')
+st.title('Social Media Monitoring')
 
 # 1. as sidebar menu
 with st.sidebar:
