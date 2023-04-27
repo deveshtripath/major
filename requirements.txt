@@ -1,8 +1,7 @@
 streamlit_option_menu
 streamlit
-pickle
 pandas
 numpy
 sentence_transformers
 transformers
-softmax
+scipy
