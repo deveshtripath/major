@@ -22,8 +22,8 @@ username = driver.find_element("xpath", '//*[@id="username"]')
 password = driver.find_element("xpath", '//*[@id="password"]')
 
 ### input the email id and password
-username.send_keys("devehtripathi2020@gmail.com")
-password.send_keys("devesh@123456")
+username.send_keys("ananytewari@gmail.com")
+password.send_keys("yash@2002")
 
 ### click the login button
 login_btn = driver.find_element("xpath", '//*[@id="organic-div"]/form/div[3]/button')      
@@ -61,5 +61,5 @@ while True:
 
 html = driver.page_source
 
-with open('linkdin_new.html','w',encoding='utf-8') as f:
+with open('linkdin_ananya4.html','w',encoding='utf-8') as f:
     f.write(html)
